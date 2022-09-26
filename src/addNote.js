@@ -60,7 +60,7 @@ addNoteBtn.addEventListener("click", function (event) {
   let input = document.createElement("input");
   input.value = "Note-" + count;
   input.className = "input-box";
-
+  div.className = "common";
   let btn = document.createElement("button");
   btn.innerHTML = '<img src="./resources/edit-icon.svg" alt="edit" />';
   btn.id = count;
