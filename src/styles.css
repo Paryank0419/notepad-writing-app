@@ -89,6 +89,7 @@ aside.notes-list {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  align-items:center;
 }
 
 .editor-container {
@@ -200,6 +201,19 @@ div.all-buttons {
 
   #made-by {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .input-box {
+    margin: 0.5rem 0.5rem 0.5rem -0.5rem;
+  }
+  .select-note {
+    height: 20px;
+    width: 20px;
+  }
+  .select-note img {
+    height: 100%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 400px) {
