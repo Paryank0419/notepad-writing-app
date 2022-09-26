@@ -75,7 +75,7 @@ aside.notes-list {
   width: 70%;
   border-radius: 2px;
   text-align: center;
-  margin: 0.5rem 0.5rem 0.5rem 2rem;
+  margin: 0.5rem 0.5rem 0.5rem 1rem;
   font-family: "Shadows Into Light", cursive;
   font-size: 1.2rem;
   background-color: #edf2f6;
@@ -89,7 +89,7 @@ aside.notes-list {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  align-items:center;
+  align-items: center;
 }
 
 .editor-container {
@@ -124,7 +124,8 @@ aside.notes-list {
 }
 
 .editor {
-  flex-basis: 90%;
+  /* flex-basis: 90%; */
+  width: 90%;
   height: 100%;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
@@ -203,6 +204,15 @@ div.all-buttons {
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .input-box {
+    font-size: 0.8rem;
+  }
+
+  div.all-buttons {
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 450px) {
   .input-box {
     margin: 0.5rem 0.5rem 0.5rem -0.5rem;
@@ -216,16 +226,6 @@ div.all-buttons {
     width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
-  .input-box {
-    font-size: 0.8rem;
-  }
-
-  div.all-buttons {
-    justify-content: center;
-  }
-}
-
 .linkedIn {
   text-decoration: none;
   color: inherit;
