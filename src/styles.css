@@ -85,6 +85,11 @@ aside.notes-list {
 .input-box:focus {
   outline: none;
 }
+.common {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 
 .editor-container {
   width: 80%;
